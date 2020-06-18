@@ -1,0 +1,12 @@
+C:\Users\pstru\Desktop\zajęcia\Projekt-wprowadzenie-kółkoKrzyżyk\KolkoKrzyzyk\KolkoKrzyzyk\bin\Debug\KolkoKrzyzyk.exe.config
+C:\Users\pstru\Desktop\zajęcia\Projekt-wprowadzenie-kółkoKrzyżyk\KolkoKrzyzyk\KolkoKrzyzyk\bin\Debug\KolkoKrzyzyk.exe
+C:\Users\pstru\Desktop\zajęcia\Projekt-wprowadzenie-kółkoKrzyżyk\KolkoKrzyzyk\KolkoKrzyzyk\bin\Debug\KolkoKrzyzyk.pdb
+C:\Users\pstru\Desktop\zajęcia\Projekt-wprowadzenie-kółkoKrzyżyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\KolkoKrzyzyk.csprojAssemblyReference.cache
+C:\Users\pstru\Desktop\zajęcia\Projekt-wprowadzenie-kółkoKrzyżyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\KolkoKrzyzyk.Form1.resources
+C:\Users\pstru\Desktop\zajęcia\Projekt-wprowadzenie-kółkoKrzyżyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\KolkoKrzyzyk.Form2.resources
+C:\Users\pstru\Desktop\zajęcia\Projekt-wprowadzenie-kółkoKrzyżyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\KolkoKrzyzyk.Properties.Resources.resources
+C:\Users\pstru\Desktop\zajęcia\Projekt-wprowadzenie-kółkoKrzyżyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\KolkoKrzyzyk.csproj.GenerateResource.cache
+C:\Users\pstru\Desktop\zajęcia\Projekt-wprowadzenie-kółkoKrzyżyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\KolkoKrzyzyk.csproj.CoreCompileInputs.cache
+C:\Users\pstru\Desktop\zajęcia\Projekt-wprowadzenie-kółkoKrzyżyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\KolkoKrzyzyk.exe
+C:\Users\pstru\Desktop\zajęcia\Projekt-wprowadzenie-kółkoKrzyżyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\KolkoKrzyzyk.pdb
+C:\Users\pstru\Desktop\zajęcia\Projekt-wprowadzenie-kółkoKrzyżyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\KolkoKrzyzyk.Form3.resources
