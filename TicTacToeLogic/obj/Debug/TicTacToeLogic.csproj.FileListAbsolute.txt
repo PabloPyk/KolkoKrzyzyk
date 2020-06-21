@@ -1,0 +1,6 @@
+C:\Users\pstru\Desktop\Projekt-wprowadzenie-kółkoKrzyżyk\TicTacToeLogic\obj\Debug\TicTacToeLogic.csprojAssemblyReference.cache
+C:\Users\pstru\Desktop\Projekt-wprowadzenie-kółkoKrzyżyk\TicTacToeLogic\obj\Debug\TicTacToeLogic.csproj.CoreCompileInputs.cache
+C:\Users\pstru\Desktop\Projekt-wprowadzenie-kółkoKrzyżyk\TicTacToeLogic\bin\Debug\TicTacToeLogic.dll
+C:\Users\pstru\Desktop\Projekt-wprowadzenie-kółkoKrzyżyk\TicTacToeLogic\bin\Debug\TicTacToeLogic.pdb
+C:\Users\pstru\Desktop\Projekt-wprowadzenie-kółkoKrzyżyk\TicTacToeLogic\obj\Debug\TicTacToeLogic.dll
+C:\Users\pstru\Desktop\Projekt-wprowadzenie-kółkoKrzyżyk\TicTacToeLogic\obj\Debug\TicTacToeLogic.pdb
