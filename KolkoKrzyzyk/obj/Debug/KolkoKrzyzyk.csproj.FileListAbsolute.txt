@@ -25,3 +25,4 @@ C:\Users\pstru\Desktop\Projekt-wprowadzenie-kółkoKrzyżyk\KolkoKrzyzyk\bin\Deb
 C:\Users\pstru\Desktop\Projekt-wprowadzenie-kółkoKrzyżyk\KolkoKrzyzyk\bin\Debug\TicTacToeLogic.dll
 C:\Users\pstru\Desktop\Projekt-wprowadzenie-kółkoKrzyżyk\KolkoKrzyzyk\bin\Debug\TicTacToeLogic.pdb
 C:\Users\pstru\Desktop\Projekt-wprowadzenie-kółkoKrzyżyk\KolkoKrzyzyk\obj\Debug\KolkoKrzyzyk.csproj.CopyComplete
+C:\Users\pstru\Desktop\Projekt-wprowadzenie-kółkoKrzyżyk\KolkoKrzyzyk\obj\Debug\KolkoKrzyzyk.Form4.resources
