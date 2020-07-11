@@ -98,5 +98,18 @@ namespace TicTacToeLogic
             }
             return false;
         }
+        public Boolean checkDraw(List<Button> buttons)
+        {
+            for (int i = 0; i < 9; i++)
+            {
+                if (buttons[i].Text != "O" && buttons[i].Text != "X")
+
+                {
+                    return false;
+                }
+            }
+            return true;
+
+        }
     }
 }

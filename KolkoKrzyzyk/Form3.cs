@@ -32,9 +32,15 @@ namespace KolkoKrzyzyk
             button0.Text = fieldAndTurnObject.fieldValue;
             button0.Enabled = false;
             Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
+            Boolean checkDraw = a.checkDraw(lstBtnCalc);
             if (checkWin)
             {
                 openNewWindow(fieldAndTurnObject.fieldValue);
+                return;
+            }
+            if (checkDraw)
+            {
+                openNewWindow("Remis");
                 return;
             }
             if (fieldAndTurnObject.fieldValue == "O")
@@ -47,6 +53,7 @@ namespace KolkoKrzyzyk
             if (checkWinComp)
             {
                 openNewWindow(fieldAndTurnObject.turn);
+                return;
             }
         }
 
@@ -57,10 +64,15 @@ namespace KolkoKrzyzyk
             button1.Text = fieldAndTurnObject.fieldValue;
             button1.Enabled = false;
             Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
+            Boolean checkDraw = a.checkDraw(lstBtnCalc);
             if (checkWin)
             {
                 openNewWindow(fieldAndTurnObject.fieldValue);
                 return;
+            }
+            if (checkDraw)
+            {
+                openNewWindow("Remis");
             }
             if (fieldAndTurnObject.fieldValue == "O")
             {
@@ -72,6 +84,7 @@ namespace KolkoKrzyzyk
             if (checkWinComp)
             {
                 openNewWindow(fieldAndTurnObject.turn);
+                return;
             }
         }
 
@@ -82,10 +95,15 @@ namespace KolkoKrzyzyk
             button2.Text = fieldAndTurnObject.fieldValue;
             button2.Enabled = false;
             Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
+            Boolean checkDraw = a.checkDraw(lstBtnCalc);
             if (checkWin)
             {
                 openNewWindow(fieldAndTurnObject.fieldValue);
                 return;
+            }
+            if (checkDraw)
+            {
+                openNewWindow("Remis");
             }
             if (fieldAndTurnObject.fieldValue == "O")
             {
@@ -97,6 +115,7 @@ namespace KolkoKrzyzyk
             if (checkWinComp)
             {
                 openNewWindow(fieldAndTurnObject.turn);
+                return;
             }
         }
 
@@ -107,10 +126,15 @@ namespace KolkoKrzyzyk
             button3.Text = fieldAndTurnObject.fieldValue;
             button3.Enabled = false;
             Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
+            Boolean checkDraw = a.checkDraw(lstBtnCalc);
             if (checkWin)
             {
                 openNewWindow(fieldAndTurnObject.fieldValue);
                 return;
+            }
+            if (checkDraw)
+            {
+                openNewWindow("Remis");
             }
             if (fieldAndTurnObject.fieldValue == "O")
             {
@@ -122,6 +146,7 @@ namespace KolkoKrzyzyk
             if (checkWinComp)
             {
                 openNewWindow(fieldAndTurnObject.turn);
+                return;
             }
         }
 
@@ -132,10 +157,15 @@ namespace KolkoKrzyzyk
             button4.Text = fieldAndTurnObject.fieldValue;
             button4.Enabled = false;
             Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
+            Boolean checkDraw = a.checkDraw(lstBtnCalc);
             if (checkWin)
             {
                 openNewWindow(fieldAndTurnObject.fieldValue);
                 return;
+            }
+            if (checkDraw)
+            {
+                openNewWindow("Remis");
             }
             if (fieldAndTurnObject.fieldValue == "O")
             {
@@ -147,6 +177,7 @@ namespace KolkoKrzyzyk
             if (checkWinComp)
             {
                 openNewWindow(fieldAndTurnObject.turn);
+                return;
             }
         }
 
@@ -157,10 +188,15 @@ namespace KolkoKrzyzyk
             button5.Text = fieldAndTurnObject.fieldValue;
             button5.Enabled = false;
             Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
+            Boolean checkDraw = a.checkDraw(lstBtnCalc);
             if (checkWin)
             {
                 openNewWindow(fieldAndTurnObject.fieldValue);
                 return;
+            }
+            if (checkDraw)
+            {
+                openNewWindow("Remis");
             }
             if (fieldAndTurnObject.fieldValue == "O")
             {
@@ -172,6 +208,7 @@ namespace KolkoKrzyzyk
             if (checkWinComp)
             {
                 openNewWindow(fieldAndTurnObject.turn);
+                return;
             }
         }
 
@@ -182,10 +219,15 @@ namespace KolkoKrzyzyk
             button6.Text = fieldAndTurnObject.fieldValue;
             button6.Enabled = false;
             Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
+            Boolean checkDraw = a.checkDraw(lstBtnCalc);
             if (checkWin)
             {
                 openNewWindow(fieldAndTurnObject.fieldValue);
                 return;
+            }
+            if (checkDraw)
+            {
+                openNewWindow("Remis");
             }
             if (fieldAndTurnObject.fieldValue == "O")
             {
@@ -197,6 +239,7 @@ namespace KolkoKrzyzyk
             if (checkWinComp)
             {
                 openNewWindow(fieldAndTurnObject.turn);
+                return;
             }
         }
 
@@ -207,10 +250,15 @@ namespace KolkoKrzyzyk
             button7.Text = fieldAndTurnObject.fieldValue;
             button7.Enabled = false;
             Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
+            Boolean checkDraw = a.checkDraw(lstBtnCalc);
             if (checkWin)
             {
                 openNewWindow(fieldAndTurnObject.fieldValue);
                 return;
+            }
+            if (checkDraw)
+            {
+                openNewWindow("Remis");
             }
             if (fieldAndTurnObject.fieldValue == "O")
             {
@@ -222,6 +270,7 @@ namespace KolkoKrzyzyk
             if (checkWinComp)
             {
                 openNewWindow(fieldAndTurnObject.turn);
+                return;
             }
         }
 
@@ -232,10 +281,15 @@ namespace KolkoKrzyzyk
             button8.Text = fieldAndTurnObject.fieldValue;
             button8.Enabled = false;
             Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
+            Boolean checkDraw = a.checkDraw(lstBtnCalc);
             if (checkWin)
             {
                 openNewWindow(fieldAndTurnObject.fieldValue);
                 return;
+            }
+            if (checkDraw)
+            {
+                openNewWindow("Remis");
             }
             if (fieldAndTurnObject.fieldValue == "O")
             {
@@ -247,6 +301,7 @@ namespace KolkoKrzyzyk
             if (checkWinComp)
             {
                 openNewWindow(fieldAndTurnObject.turn);
+                return;
             }
         }
 

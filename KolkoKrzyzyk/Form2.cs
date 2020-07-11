@@ -23,6 +23,7 @@ namespace KolkoKrzyzyk
             {
                 btn0, btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8
             };
+
         }
 
         int klikniec = 0;
@@ -35,9 +36,15 @@ namespace KolkoKrzyzyk
             btn0.Text = fieldAndTurnObject.fieldValue;
             btn0.Enabled = false;
             Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
+            Boolean checkDraw = a.checkDraw(lstBtnCalc);
             if (checkWin)
             {
                 openNewWindow(fieldAndTurnObject.fieldValue);
+                return;
+            }
+            if (checkDraw)
+            {
+                openNewWindow("Remis");
             }
             klikniec++;
         }
@@ -51,9 +58,15 @@ namespace KolkoKrzyzyk
             btn1.Text = fieldAndTurnObject.fieldValue;
             btn1.Enabled = false;
             Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
+            Boolean checkDraw = a.checkDraw(lstBtnCalc);
             if (checkWin)
             {
                 openNewWindow(fieldAndTurnObject.fieldValue);
+                return;
+            }
+            if (checkDraw)
+            {
+                openNewWindow("Remis");
             }
             klikniec++;
         }
@@ -68,24 +81,15 @@ namespace KolkoKrzyzyk
             btn2.Text = fieldAndTurnObject.fieldValue;
             btn2.Enabled = false;
             Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
+            Boolean checkDraw = a.checkDraw(lstBtnCalc);
             if (checkWin)
             {
                 openNewWindow(fieldAndTurnObject.fieldValue);
+                return;
             }
-            klikniec++;
-        }
-
-        private void btn3_Click(object sender, EventArgs e)
-        {
-            Class1 a = new Class1();
-            Class1 fieldAndTurnObject = a.main(klikniec);
-            label3.Text = fieldAndTurnObject.turn;
-            btn3.Text = fieldAndTurnObject.fieldValue;
-            btn3.Enabled = false;
-            Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
-            if (checkWin)
+            if (checkDraw)
             {
-                openNewWindow(fieldAndTurnObject.fieldValue);
+                openNewWindow("Remis");
             }
             klikniec++;
         }
@@ -98,9 +102,36 @@ namespace KolkoKrzyzyk
             btn4.Text = fieldAndTurnObject.fieldValue;
             btn4.Enabled = false;
             Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
+            Boolean checkDraw = a.checkDraw(lstBtnCalc);
             if (checkWin)
             {
                 openNewWindow(fieldAndTurnObject.fieldValue);
+                return;
+            }
+            if (checkDraw)
+            {
+                openNewWindow("Remis");
+            }
+            klikniec++;
+        }
+
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            Class1 a = new Class1();
+            Class1 fieldAndTurnObject = a.main(klikniec);
+            label3.Text = fieldAndTurnObject.turn;
+            btn3.Text = fieldAndTurnObject.fieldValue;
+            btn3.Enabled = false;
+            Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
+            Boolean checkDraw = a.checkDraw(lstBtnCalc);
+            if (checkWin)
+            {
+                openNewWindow(fieldAndTurnObject.fieldValue);
+                return;
+            }
+            if (checkDraw)
+            {
+                openNewWindow("Remis");
             }
             klikniec++;
         }
@@ -113,9 +144,15 @@ namespace KolkoKrzyzyk
             btn5.Text = fieldAndTurnObject.fieldValue;
             btn5.Enabled = false;
             Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
+            Boolean checkDraw = a.checkDraw(lstBtnCalc);
             if (checkWin)
             {
                 openNewWindow(fieldAndTurnObject.fieldValue);
+                return;
+            }
+            if (checkDraw)
+            {
+                openNewWindow("Remis");
             }
             klikniec++;
         }
@@ -128,9 +165,15 @@ namespace KolkoKrzyzyk
             btn6.Text = fieldAndTurnObject.fieldValue;
             btn6.Enabled = false;
             Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
+            Boolean checkDraw = a.checkDraw(lstBtnCalc);
             if (checkWin)
             {
                 openNewWindow(fieldAndTurnObject.fieldValue);
+                return;
+            }
+            if (checkDraw)
+            {
+                openNewWindow("Remis");
             }
             klikniec++;
         }
@@ -143,9 +186,15 @@ namespace KolkoKrzyzyk
             btn7.Text = fieldAndTurnObject.fieldValue;
             btn7.Enabled = false;
             Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
+            Boolean checkDraw = a.checkDraw(lstBtnCalc);
             if (checkWin)
             {
                 openNewWindow(fieldAndTurnObject.fieldValue);
+                return;
+            }
+            if (checkDraw)
+            {
+                openNewWindow("Remis");
             }
             klikniec++;
         }
@@ -158,9 +207,15 @@ namespace KolkoKrzyzyk
             btn8.Text = fieldAndTurnObject.fieldValue;
             btn8.Enabled = false;
             Boolean checkWin = a.checkWin(lstBtnCalc, fieldAndTurnObject.fieldValue);
+            Boolean checkDraw = a.checkDraw(lstBtnCalc);
             if (checkWin)
             {
                 openNewWindow(fieldAndTurnObject.fieldValue);
+                return;
+            }
+            if (checkDraw)
+            {
+                openNewWindow("Remis");
             }
             klikniec++;
         }

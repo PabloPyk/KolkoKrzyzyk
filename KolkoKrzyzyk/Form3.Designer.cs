@@ -41,98 +41,108 @@
             // 
             // button8
             // 
+            this.button8.BackColor = System.Drawing.Color.DarkGray;
             this.button8.Font = new System.Drawing.Font("Verdana", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button8.Location = new System.Drawing.Point(261, 236);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(114, 97);
             this.button8.TabIndex = 26;
-            this.button8.UseVisualStyleBackColor = true;
+            this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
+            this.button7.BackColor = System.Drawing.Color.DarkGray;
             this.button7.Font = new System.Drawing.Font("Verdana", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button7.Location = new System.Drawing.Point(141, 236);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(114, 97);
             this.button7.TabIndex = 25;
-            this.button7.UseVisualStyleBackColor = true;
+            this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
+            this.button6.BackColor = System.Drawing.Color.DarkGray;
             this.button6.Font = new System.Drawing.Font("Verdana", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button6.Location = new System.Drawing.Point(21, 236);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(114, 97);
             this.button6.TabIndex = 24;
-            this.button6.UseVisualStyleBackColor = true;
+            this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
+            this.button5.BackColor = System.Drawing.Color.DarkGray;
             this.button5.Font = new System.Drawing.Font("Verdana", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button5.Location = new System.Drawing.Point(261, 133);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(114, 97);
             this.button5.TabIndex = 23;
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.Color.DarkGray;
             this.button4.Font = new System.Drawing.Font("Verdana", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button4.Location = new System.Drawing.Point(141, 133);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(114, 97);
             this.button4.TabIndex = 22;
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.DarkGray;
             this.button3.Font = new System.Drawing.Font("Verdana", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button3.Location = new System.Drawing.Point(21, 133);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(114, 97);
             this.button3.TabIndex = 21;
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.DarkGray;
             this.button2.Font = new System.Drawing.Font("Verdana", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button2.Location = new System.Drawing.Point(261, 30);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(114, 97);
             this.button2.TabIndex = 20;
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.DarkGray;
             this.button1.Font = new System.Drawing.Font("Verdana", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button1.Location = new System.Drawing.Point(141, 30);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(114, 97);
             this.button1.TabIndex = 19;
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button0
             // 
+            this.button0.BackColor = System.Drawing.Color.DarkGray;
             this.button0.Font = new System.Drawing.Font("Verdana", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button0.Location = new System.Drawing.Point(21, 30);
             this.button0.Name = "button0";
             this.button0.Size = new System.Drawing.Size(114, 97);
             this.button0.TabIndex = 18;
-            this.button0.UseVisualStyleBackColor = true;
+            this.button0.UseVisualStyleBackColor = false;
             this.button0.Click += new System.EventHandler(this.button0_Click);
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SlateGray;
             this.ClientSize = new System.Drawing.Size(486, 348);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
